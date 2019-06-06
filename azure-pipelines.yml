@@ -54,4 +54,4 @@ steps:
     tag: $(Build.BuildNumber)
     releaseNotesSource: input
     releaseNotes: ':rocket: $(Build.BuildNumber)'
-    assets: '.publish/*.nupkg'
+    assets: '.publish/*.zip'
